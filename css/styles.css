@@ -5,16 +5,17 @@ div {
 
 img { 
     padding: 3px;
+    border: 2px solid black;
 }
 
 .animal1 {
-   
+   background-color: gray;
 }
 
 .animal2 {
-   
+   background-color: beige;
 }
 
 .animal3 {
-
+    background-color: lightslategray;
 }
