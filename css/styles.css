@@ -1,6 +1,5 @@
 div {
     text-align: center;
-    float: left;
 }
 
 img { 
@@ -19,3 +18,17 @@ img {
 .animal3 {
     background-color: lightslategray;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    div {
+        float: left;
+    }
+}
+
